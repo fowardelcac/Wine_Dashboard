@@ -216,7 +216,7 @@ def process(df: pd.DataFrame):
 
     df = df.copy()
     df.drop_duplicates(inplace=True)
-    df_filter = df.dropna(subset=["country", "designation"])
+    df_filter = df.dropna(subset=["country", "description"])
 
     df_filter.loc[:, "continent"] = df_filter.apply(separate_by_continent, 1)
 
