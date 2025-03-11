@@ -2,7 +2,7 @@ Para visualizar el dashboard:
 - streamlit run main.py
 
 
-# Wine Dataset Visualization
+# Wine Dashboard
 Este proyecto es una aplicación interactiva desarrollada con Streamlit que permite visualizar y analizar un conjunto de datos de vinos (winemag-data-130k-v2.csv). La aplicación ofrece información geográfica, detalles sobre bodegas, análisis de precios y distribuciones, además de permitir filtrar los datos por país y bodega.
 
 # Objetivo
